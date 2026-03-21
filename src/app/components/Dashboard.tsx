@@ -18,7 +18,7 @@ export function Dashboard() {
     // Validação de tipo de arquivo
     if (!file.type.startsWith("image/")) {
       toast.error("Formato inválido", {
-        description: "Por favor, selecione uma imagem válida (PNG, JPG, TIFF)",
+        description: "Por favor, selecione uma imagem válida (SVS)",
       });
       return;
     }
@@ -61,7 +61,7 @@ export function Dashboard() {
               <Microscope className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-semibold text-slate-900">GlomeruloAI</h1>
+              <h1 className="text-xl font-semibold text-slate-900">PatoIA</h1>
               <p className="text-xs text-slate-500">Análise Inteligente de Glomérulos Renais</p>
             </div>
           </div>
@@ -115,7 +115,7 @@ export function Dashboard() {
                 </div>
 
                 <div className="text-xs text-slate-400">
-                  Formatos suportados: PNG, JPG, TIFF • Tamanho máximo: 50MB
+                  Formatos suportados: SVS •
                 </div>
 
                 <input
@@ -210,22 +210,7 @@ export function Dashboard() {
             </TooltipProvider>
           </div>
 
-          {/* Additional Info */}
-          <Card className="bg-blue-50 border-blue-200">
-            <CardContent className="p-6 flex gap-4">
-              <Info className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-              <div className="space-y-1">
-                <p className="text-sm font-medium text-blue-900">
-                  Dicas para melhores resultados
-                </p>
-                <ul className="text-sm text-blue-700 space-y-1 list-disc list-inside">
-                  <li>Utilize imagens de alta resolução (mínimo 1024x1024px)</li>
-                  <li>Certifique-se que o corte histológico está bem focado</li>
-                  <li>Evite imagens com artefatos ou coloração irregular</li>
-                </ul>
-              </div>
-            </CardContent>
-          </Card>
+        
         </div>
       </main>
     </div>
