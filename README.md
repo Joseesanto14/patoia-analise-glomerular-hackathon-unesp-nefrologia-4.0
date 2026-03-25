@@ -53,7 +53,7 @@ graph LR
 
 1. **Clone o repositório**:
    ```bash
-   git clone [url-do-repositorio]
+   git clone [https://github.com/Joseesanto14/PatoIA-Analise-Glomerular---Hackathon-Unesp-Nefrologia-4.0.git]
    ```
 
 2. **Instale as dependências**:
