@@ -5,7 +5,7 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-O **PatoIA** é uma plataforma inteligente desenvolvida para o **Hackathon UNESP Nefrologia 4.0**, focada na automação da análise histológica de glomérulos renais. Utilizando inteligência artificial, o sistema identifica, classifica e analisa o nível de maturação patológica em imagens de alta resolução (SVS).
+O **PatoIA** é uma plataforma inteligente desenvolvida para o **Hackathon UNESP Nefrologia 4.0**, focada na automação da análise histológica de glomérulos renais. Utilizando inteligência artificial, o sistema identifica, classifica e analisa o nível de maturação patológica em imagens de alta resolução (SVS). Atualmente o projeto conta somente com o Frontend que demonstra como seria sua execução prática.
 
 ---
 
