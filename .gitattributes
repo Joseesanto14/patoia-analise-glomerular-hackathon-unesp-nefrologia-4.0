@@ -1,0 +1,19 @@
+# Ignora todo o código TypeScript, JavaScript, CSS e assets das estatísticas do GitHub (Linguist)
+*.ts linguist-vendored=true
+*.tsx linguist-vendored=true
+*.js linguist-vendored=true
+*.jsx linguist-vendored=true
+*.mjs linguist-vendored=true
+*.cjs linguist-vendored=true
+*.css linguist-vendored=true
+*.json linguist-vendored=true
+*.svg linguist-vendored=true
+*.png linguist-vendored=true
+*.jpg linguist-vendored=true
+
+# Pastas completas
+src/** linguist-vendored=true
+dist/** linguist-vendored=true
+node_modules/** linguist-vendored=true
+public/** linguist-vendored=true
+guidelines/** linguist-documentation=true
